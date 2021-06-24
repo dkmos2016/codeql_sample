@@ -39,4 +39,13 @@ ResultSet rs = st.executeQuery(sql); // match here
 
 示例代码：[ma_parent](ma_parent.ql)
 
+#### **5**. AssignExpr with Constructor with Parameter with MethodAccess
+匹配代码示例
+``` java
+ProcessBuilder p;
+p = new ProcessBuilder(cmd).start(); // match here
+```
+
+
+示例代码：[ae_cc_ma_param](ae_cc_ma_param.ql)
 
